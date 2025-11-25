@@ -43,4 +43,5 @@ curl -X POST http://localhost:8080/api/v1/businesses/1/rules/default
 ```
 curl -X POST http://localhost:8080/api/v1/businesses/1/campaigns/generate
 ```
-<img width="1441" height="674" alt="image" src="https://github.com/user-attachments/assets/13ef262e-cd15-4395-8c9c-4c8c74f7c593" />
+<img width="923" height="581" alt="image" src="https://github.com/user-attachments/assets/b7035b61-655f-4f66-9600-aecada8cd551" />
+
