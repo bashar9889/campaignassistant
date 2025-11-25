@@ -35,3 +35,11 @@ curl -X POST http://localhost:8080/api/v1/businesses \
     "location": "Saskatoon, SK"
   }'
 ```
+2) Create Default Lifecycle Rules
+```
+curl -X POST http://localhost:8080/api/v1/businesses/1/rules/default
+```
+3) Generate AI Campaigns
+```
+curl -X POST http://localhost:8080/api/v1/businesses/1/campaigns/generate
+```
