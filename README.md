@@ -1,11 +1,14 @@
-# AI-Personalized Campaign Assistant
+## AI-Personalized Campaign Assistant for Local SMBs
 
-Small Spring Boot service that lets a local SMB:
-1. Register their business.
-2. Create default lifecycle rules (welcome, win-back).
-3. Generate AI-written email campaigns (subject + body) from those rules.
+This project is a small AI-powered campaign assistant inspired by Vendasta’s mission to:
+help small and medium businesses get more customers — and keep them.
+It’s a Java / Spring Boot service that exposes intelligent, scalable RESTful APIs to:
 
-It’s meant to demo an **AI-first, RESTful service** similar to a tiny slice of Vendasta’s platform.
+ - Register a local business (SMB)
+ - Create lifecycle rules (welcome, win-back, etc.)
+ - Use an AI model to generate personalized email campaigns based on that context
+
+It’s a tiny slice of an AI-first customer acquisition and engagement platform: we embed AI into the core workflow instead of treating it as an add-on.
 
 ## Stack
 
