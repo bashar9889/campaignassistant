@@ -1,7 +1,7 @@
 ## AI-Personalized Campaign Assistant for Local SMBs
 
 This project is a small AI-powered campaign assistant inspired by Vendasta’s mission to:
-help small and medium businesses get more customers — and keep them.
+help small and medium businesses get more customers, and keep them!
 It’s a Java / Spring Boot service that exposes intelligent, scalable RESTful APIs to:
 
  - Register a local business (SMB)
