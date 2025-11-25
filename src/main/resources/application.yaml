@@ -18,6 +18,10 @@ spring:
 server:
   port: 8080
 
+# AI provider: Hugging Face
+huggingface:
+  api-key: ${HUGGINGFACE_API_KEY:}
+  model-id: HuggingFaceTB/SmolLM3-3B:hf-inference
 
 
 

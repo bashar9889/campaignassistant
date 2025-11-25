@@ -46,8 +46,6 @@ public class MockCampaignCopyGenerator implements CampaignCopyGenerator {
                 + "Best,\n"
                 + business.getName();
 
-        // You could log the prompt if you want:
-        // String prompt = promptBuilder.buildPrompt(business, rule);
 
         return new GeneratedCampaignDraft(subject, body);
     }
