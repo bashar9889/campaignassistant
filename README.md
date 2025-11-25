@@ -9,16 +9,29 @@ It’s meant to demo an **AI-first, RESTful service** similar to a tiny slice of
 
 ## Stack
 
-- Java 17, Spring Boot 3 (Web, Data JPA, Validation)
+- Java 21, Spring Boot 4 (Web, Data JPA, Validation)
 - H2 in-memory DB
 - AI layer behind `CampaignCopyGenerator`
   - Real: Hugging Face text-generation model (via Inference API)
-  - Mock: local generator for offline/demo use
+  - Mock: local generator for offline use
 
 ## Run
 
 ```bash
-# (optional) if you want real AI via Hugging Face
+# if you want real AI via Hugging Face
 export HUGGINGFACE_API_KEY=hf_your_token_here
 
 mvn spring-boot:run
+```
+1) Create a Business
+```
+curl -X POST http://localhost:8080/api/v1/businesses \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Sunrise Bakery",
+    "niche": "Bakery / Cafe",
+    "targetAudience": "Students and young professionals",
+    "toneOfVoice": "CASUAL",
+    "location": "Saskatoon, SK"
+  }'
+```
